@@ -4,4 +4,8 @@
     <string name="Welcome">Welcome Back Please Login to Continue</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="choose">Pilih Kartu Ucapan</string>
+    <string name="ultah">Ulang Tahun</string>
+    <string name="nikah">Pernikahan</string>
+    <string name="Eid">Hari raya</string>
 </resources>

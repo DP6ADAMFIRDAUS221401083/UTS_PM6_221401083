@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--    </style>-->
+
+    <style name="HeadingTextStyle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#C56805</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginStart">30dp</item>
+    </style>
+    <style name="ChooseTextStyle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#E5851F</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginStart">50dp</item>
+    </style>
+
+    <style name="CardButtonStyle">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_marginStart">50dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:textColor">#E5851F</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:background">@drawable/card_button_background</item>
+    </style>
+
+</resources>

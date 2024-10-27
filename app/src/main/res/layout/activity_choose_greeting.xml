@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chooseGreetingActivity">
+    <TextView
+        android:id="@+id/headingTextView"
+        style="@style/HeadingTextStyle"
+        android:text="@string/choose"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/teksUltah"
+        style="@style/ChooseTextStyle"
+        android:text="@string/ultah"
+        app:layout_constraintTop_toBottomOf="@id/headingTextView"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <Button
+        android:id="@+id/ulangTahunButton"
+        style="@style/CardButtonStyle"
+        android:text="@string/ultah"
+        android:drawableTop="@drawable/ic_birthday_card"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/card_button_background"
+        app:layout_constraintTop_toBottomOf="@id/teksUltah" />
+    <TextView
+        android:id="@+id/teksNikah"
+        style="@style/ChooseTextStyle"
+        android:text="@string/nikah"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ulangTahunButton"/>
+    <Button
+        android:id="@+id/pernikahanButton"
+        style="@style/CardButtonStyle"
+        android:text="@string/nikah"
+        android:drawableTop="@drawable/ic_wedding_card"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="#FFFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/teksNikah" />
+    <TextView
+        android:id="@+id/teksEid"
+        style="@style/ChooseTextStyle"
+        android:text="@string/Eid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pernikahanButton"/>
+    <Button
+        android:id="@+id/hariRayaButton"
+        style="@style/CardButtonStyle"
+        android:text="@string/Eid"
+        android:drawableTop="@drawable/ic_eid_card"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/teksEid" />
+</androidx.constraintlayout.widget.ConstraintLayout>
