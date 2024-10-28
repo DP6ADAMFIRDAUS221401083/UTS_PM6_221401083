@@ -21,7 +21,7 @@ class insertTextActivity : AppCompatActivity() {
             val name = findViewById<EditText>(R.id.nameField).text.toString()
             val message = findViewById<EditText>(R.id.greetingField).text.toString()
 
-            val intent = Intent(this, PreviewCardActivity::class.java)
+            val intent = Intent(this, previewCardActivity::class.java)
             intent.putExtra("CARD_TYPE", cardType)
             intent.putExtra("RECIPIENT_NAME", name)
             intent.putExtra("MESSAGE", message)
