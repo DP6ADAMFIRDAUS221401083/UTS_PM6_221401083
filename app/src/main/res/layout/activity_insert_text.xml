@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".insertTextActivity">
+    <TextView
+        android:id="@+id/inserttextheading"
+        style="@style/insertTextHeading"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/masukkan"/>
+    <TextView
+        android:id="@+id/inserttextfieldName"
+        style="@style/insertTextField"
+        app:layout_constraintTop_toBottomOf="@id/inserttextheading"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/namaPenerima"/>
+    <EditText
+        android:id="@+id/nameField"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:hint="@string/hintNama"
+        android:padding="12dp"
+        android:background="@drawable/background_edittext"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inserttextfieldName" />
+
+    <TextView
+        android:id="@+id/inserttextfieldGreeting"
+        style="@style/insertTextField"
+        app:layout_constraintTop_toBottomOf="@id/nameField"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/ucapan"/>
+
+    <EditText
+        android:id="@+id/greetingField"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:hint="@string/hintUcapan"
+        android:padding="12dp"
+        android:background="@drawable/background_edittext"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inserttextfieldGreeting" />
+
+    <Button
+        android:id="@+id/buatKartuButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="70dp"
+        android:text="@string/buat"
+        android:backgroundTint="#0DC338"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/greetingField" />
+</androidx.constraintlayout.widget.ConstraintLayout>

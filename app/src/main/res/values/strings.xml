@@ -8,4 +8,10 @@
     <string name="ultah">Ulang Tahun</string>
     <string name="nikah">Pernikahan</string>
     <string name="Eid">Hari raya</string>
+    <string name="masukkan">Masukkan isi kartu ucapan</string>
+    <string name="namaPenerima">Masukkan Nama Penerima</string>
+    <string name="ucapan">Masukkan kata kata ucapan</string>
+    <string name="hintNama">Mulyono</string>
+    <string name="hintUcapan">Selamat menikah</string>
+    <string name="buat">Buat kartu</string>
 </resources>

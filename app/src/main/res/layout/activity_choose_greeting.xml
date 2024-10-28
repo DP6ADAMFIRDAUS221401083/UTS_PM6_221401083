@@ -25,21 +25,23 @@
         android:text="@string/ultah"
         android:drawableTop="@drawable/ic_birthday_card"
         app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="#FFFFFF"
         android:background="@drawable/card_button_background"
         app:layout_constraintTop_toBottomOf="@id/teksUltah" />
     <TextView
         android:id="@+id/teksNikah"
         style="@style/ChooseTextStyle"
         android:text="@string/nikah"
+        android:backgroundTint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ulangTahunButton"/>
     <Button
         android:id="@+id/pernikahanButton"
         style="@style/CardButtonStyle"
         android:text="@string/nikah"
+        android:backgroundTint="#FFFFFF"
         android:drawableTop="@drawable/ic_wedding_card"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="#FFFFFFF"
         app:layout_constraintTop_toBottomOf="@id/teksNikah" />
     <TextView
         android:id="@+id/teksEid"
@@ -52,7 +54,7 @@
         style="@style/CardButtonStyle"
         android:text="@string/Eid"
         android:drawableTop="@drawable/ic_eid_card"
+        android:backgroundTint="#FCFCFC"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="#FFFFFF"
         app:layout_constraintTop_toBottomOf="@id/teksEid" />
 </androidx.constraintlayout.widget.ConstraintLayout>
