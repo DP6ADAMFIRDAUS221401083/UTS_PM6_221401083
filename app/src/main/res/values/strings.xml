@@ -14,4 +14,6 @@
     <string name="hintNama">Mulyono</string>
     <string name="hintUcapan">Selamat sukses</string>
     <string name="buat">Buat kartu</string>
+    <string name="edit">Edit Kartu</string>
+    <string name="simpan">Simpan Kartu</string>
 </resources>

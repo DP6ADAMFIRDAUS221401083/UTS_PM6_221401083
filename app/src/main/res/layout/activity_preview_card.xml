@@ -10,7 +10,7 @@
     <FrameLayout
         android:id="@+id/frameLayoutTemplate"
         android:layout_width="200dp"
-        android:layout_height="150dp"
+        android:layout_height="120dp"
         android:layout_marginTop="30dp"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
@@ -24,35 +24,26 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"/>
-        <LinearLayout
+
+        <TextView
+            android:id="@+id/textViewRecipientName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|top"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
-            android:orientation="horizontal"
-            android:paddingTop="16dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:text="halo "/>
-            <TextView
-                android:id="@+id/textViewRecipientName"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="#000000" />
-        </LinearLayout>
+            android:textSize="18sp"
+            android:paddingTop="16sp"
+            android:fontFamily="@font/montserrat_light"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <!-- Text for Message overlay -->
         <TextView
             android:id="@+id/textViewMessage"
-            android:layout_gravity="center_horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_light"
+            android:textSize="8sp"
             android:textColor="#000000" />
     </FrameLayout>
 
@@ -65,7 +56,7 @@
             android:layout_width="wrap_content"
             android:backgroundTint="#C30D0D"
             android:layout_height="wrap_content"
-            android:text="Edit" />
+            android:text="@string/edit" />
 
         <Button
             android:id="@+id/buttonSave"
@@ -76,5 +67,5 @@
             app:layout_constraintTop_toBottomOf="@id/buttonEdit"
             android:backgroundTint="#0DC338"
             android:layout_height="wrap_content"
-            android:text="Simpan" />
+            android:text="@string/simpan" />
 </androidx.constraintlayout.widget.ConstraintLayout>
